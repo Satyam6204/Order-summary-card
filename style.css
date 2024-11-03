@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+   background-color: hsl(225, 65%, 84%);
+   background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+   background-position-x: center;
+   background-size: 1530px;
+   
+
+ 
+}
+
+
+
+.box{
+   
+    margin-top:150px; 
+    display: flex;
+    justify-content: center;
+    align-content:start;
+}
+
+.img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 130px;
+    width: 300px;
+}
+
+.box1{
+    background-color: white;
+    border-radius: 10px;
+    height: 450px;
+    width: 300px;
+   
+}
+.box2{
+    height: 100px;
+    width: 300px;
+    margin-top: 20px;
+
+   
+}
+.box2 h2{
+    margin-left: 60px;
+    margin-bottom: 10px;
+   color: hsl(223, 47%, 23%);
+
+}
+
+ .p1{
+      font-size: 14px;
+     font-family: "Red Hat Display", sans-serif;
+     margin-left: 30px;
+     color: hsl(224, 23%, 55%);
+   
+    
+}
+.p2{
+    font-size: 14px;
+    font-family: "Red Hat Display", sans-serif;
+    margin-left: 22px;
+    color: hsl(224, 23%, 55%);
+}
+.p3{
+    font-size: 14px;
+    font-family: "Red Hat Display", sans-serif;
+    margin-left: 90px;
+    color: hsl(224, 23%, 55%);
+    
+ 
+  
+}
+.inbox{
+    margin-left: 25px;
+    width: 230px;
+    border-radius: 10px;
+    padding-left: 20px;
+   background-color: hsl(225, 100%, 98%);
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+.inbox h5{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: hsl(223, 47%, 23%);
+
+}
+.₹{
+    color: rgb(187, 187, 187);
+}
+.inbox h6{
+    font-size: 12px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+/* Button */
+.btn1{
+    color:  hsl(225, 100%, 98%);
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 10px;
+    padding:10px 60px 10px 60px;
+    background-color:hsl(245, 75%, 52%) ;
+    border-top:  2px solid white;
+    border-left:  2px solid white;
+    border-right:  2px solid white;
+    border-bottom:  1px solid white;
+    box-shadow: 0px 10px  rgb(238, 241, 241);
+
+}
+
+.btn2{
+    color:  hsl(224, 23%, 55%);
+    margin-top: 20px;
+    margin-left: 100px;
+    background-color: white;
+    border: 2px solid white;
+
+    
+}
+
+
+.attribution{
+   
+   margin-top: 250px;
+    align-content: start;
+}
+
+@media(max-width:480px){
+
+    body{
+        background-image: url('./images/pattern-background-mobile.svg');
+      
+    }
+
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
